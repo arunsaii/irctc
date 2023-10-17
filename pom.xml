@@ -19,7 +19,25 @@
     <artifactId>spring-core</artifactId>
     <version>6.0.11</version>
    </dependency>
-  </dependencies>
+ </dependencies>
+  <distributionManagement>  
+	<repository>
+		<id>nexus</id>
+		<name>Ashok IT Releases Nexus Repo</name>
+		<url>http://http://43.205.232.132:8081/repository/release_repo/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Ashok IT Snapshots Nexus Repo</name>
+		<url>http://http://43.205.232.132:8081/repository/snapshot_repo/</url>
+	</snapshotRepository>	
+</distributionManagement>
+ <properties>
+	<sonar.host.url>http://43.205.119.115:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>admin</sonar.password>
+  </properties>
   <build>
     <finalName>01-maven-web-app</finalName>
   </build>
