@@ -23,13 +23,13 @@
   <distributionManagement>  
 	<repository>
 		<id>nexus</id>
-		<name>Ashok IT Releases Nexus Repo</name>
+		<name>release_repo</name>
 		<url>http://13.126.180.34:8081/repository/release_repo/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
-		<name>Ashok IT Snapshots Nexus Repo</name>
+		<name>snapshot_repo</name>
 		<url>http://13.126.180.34:8081/repository/snapshot_repo/</url>
 	</snapshotRepository>	
 </distributionManagement>
