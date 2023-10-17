@@ -34,7 +34,7 @@
 	</snapshotRepository>	
 </distributionManagement>
  <properties>
-	<sonar.host.url>http://43.205.119.115:9000/</sonar.host.url>
+	<sonar.host.url>http://13.234.20.34:9000/</sonar.host.url>
 	<sonar.login>dcbfff3fb3a9782afadc96ee42b9edc7034d2971</sonar.login>
   </properties>
   <build>
